@@ -1,8 +1,8 @@
 button {
   padding: 5px 10px;
   border-radius: 5px;
-  border: 1px solid black;
-  margin: 10px;
+  border: 2px solid black;
+  margin: 11px;
   font-family: inherit;
   background-color: #f6f7f9;
 }
@@ -12,5 +12,5 @@ button:hover {
 }
 
 button:active {
-  background-color: rgb(249, 207, 153);
+  background-color: rgb(238, 180, 105);
 }
