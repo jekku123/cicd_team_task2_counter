@@ -5,15 +5,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(60, 59, 59);
+    color: black;
     font-size: 3em;
     font-weight: bold;
     margin: 30px;
-    background-color: #8939b7;
+    background-color: #139eca;
 }
 
 .even {
-    background-color: #d15015;
+    background-color: #e2510e;
 }
 
 .odd {
