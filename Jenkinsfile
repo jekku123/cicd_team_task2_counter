@@ -1,24 +1,23 @@
 pipeline {
-   agent any
-
-   stages {
-      stage("build") {
-        steps {
-          echo 'building our app...'
+    agent any
+    
+    tools {nodejs "node"}
+    
+    stages {
+        stage('Build') {
+            steps {
+                sh 'npm build'
+            }
         }
-      }
-
-    //   stage("test") {
-    //     steps {
-    //      echo 'testing our app...'
-    //     }
-    //   }
-
-    //   stage("deploy") {
-    //     steps {
-    //      echo 'deploying our app...'
-    //     }
-    //   }
-
-   }
+        stage('Test') {
+            steps {
+                echo "No tests"
+              }
+            }
+        stage('Deploy') {
+            steps {
+                echo "Deployed to AWS"
+            }
+        }
+    }
 }
