@@ -8,17 +8,17 @@ pipeline {
         }
       }
 
-      stage("test") {
-        steps {
-         echo 'testing our app...'
-        }
-      }
+    //   stage("test") {
+    //     steps {
+    //      echo 'testing our app...'
+    //     }
+    //   }
 
-      stage("deploy") {
-        steps {
-         echo 'deploying our app...'
-        }
-      }
+    //   stage("deploy") {
+    //     steps {
+    //      echo 'deploying our app...'
+    //     }
+    //   }
 
    }
 }
