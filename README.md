@@ -1,4 +1,4 @@
-# Counter App
+# Counter App (Group work branch)
 
 Counter app made as a practice task for Business College Helsinki Full-Stack Program
 
