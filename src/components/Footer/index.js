@@ -1,7 +1,7 @@
 import './index.css';
 
 const Footer = () => {
-  return <small>JM-Productions</small>;
+    return <small>Team 4 Productions</small>;
 };
 
 export default Footer;
